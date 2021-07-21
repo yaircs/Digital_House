@@ -1,0 +1,166 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+      background-image: url('../img/images.jpg');
+  background-repeat: repeat-x;
+}
+
+header {
+    display: flex;
+   
+    flex-direction: column;
+}
+
+img {
+    height: 147px;
+    width: 100px;
+    align-self: center;
+}
+
+
+/*-----------body------------*/
+main{
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
+}
+h1 {
+    background: #C4C4C4;
+    color: #005677;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 84.69%;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin: 0;
+    padding: 1% 0;  
+}
+
+h2 {
+    background: #C4C4C4;
+    color: #005677;
+    font-style: normal;
+    font-weight: bold;
+    width: 70%;
+    font-size: 20px;
+    padding-left: 0.5%;
+}
+
+li {
+    font-family: Times New Roman;
+    font-size: 15px;
+}
+
+span p {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.datosPersonales {
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+}
+
+.fechas {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+section{
+    padding-left: 24%;
+}
+article{
+    display: flex;
+    align-items:baseline;
+    padding-left: 2%;
+}
+p{
+    text-align: left;
+}
+
+
+/*-----------footer------------*/
+
+footer {
+    background: #005677;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    gap: 26px;
+}
+
+footer i {
+
+    width: 1px;
+
+}
+
+.title_footer {
+    margin: 0;
+    color: white;
+}
+
+.botones{
+
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+button{
+background-color: #ffffff;
+border: none;
+width: 150px;
+height: 30px;
+margin: 2px;
+padding: 0;
+
+}
+.botones a:hover:not(.active){
+  /*color: var(--hover);*/
+  
+  outline: 2px solid rgb(85, 85, 85);;
+  outline-offset: 2px;
+  background: rgb(240, 239, 239);
+  
+}
+
+.botones button a{
+  
+  
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  width: 100px;
+  height: auto;
+  padding: 3px 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005677;
+  font-weight: bold;
+
+}
+
+.botones .volver{
+  margin-left: 1080px;
+  background-color: rgb(200, 200, 236);
+  
+}
+.perfil{
+    text-align: center;
+margin-right: 300px;
+}
