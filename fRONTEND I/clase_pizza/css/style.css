@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+   font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #E5E5E5;
+}
+header{
+background-color: #222;
+ display: flex;
+  align-items: center;
+}
+nav{
+ width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+   align-items: center;
+}
+
+nav ul li{
+  font-size: 30px;
+  list-style: none;
+  color: #fff;
+  display: inline-block;
+  
+  margin-left: 18px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.texto1{
+     position: relative;
+    color: red;
+    font-weight: 700;
+    top: 30px;
+    left: 20px;
+    font-size: 1.4rem;
+}
+
+p span{
+  color: #fff;
+  
+}
+.delivery img{
+  
+  width: 490px;
+  height: 350px;
+}
+section{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.articulo2{
+    margin-top: 30px;
+    background-color: white;
+    width: 491px;
+}
+
+.tipos{
+  position: absolute;
+  top: 280px;
+  left: 76%;
+}
+h3{
+    position: relative;
+    color: red;
+    top: 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+ol li{
+
+  left: 40px;
+  top: 100px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 50px;
+  padding: 1px;
+    
+}
+ol{
+  margin-top: 90px;
+}
+.pizzas{
+  position: relative;
+
+  left: 40px;
+  top: 90px;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+footer{
+  background-color: #222;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ position: absolute;
+ width: 100%;
+ bottom: 60px;
+}
+
+ul li{
+  color: #fff;
+  list-style-type: none;
+  padding: 5px;
+}
